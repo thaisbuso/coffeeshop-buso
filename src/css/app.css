@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  padding-top: 3.5rem;
+  text-align: center;
+}
+
+.camera{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999;
+  background-color: black;
+}
+
+h4{
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.topbar .brand{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home{
+  padding: 1rem;
+}
+
+.admin{
+  padding: 1rem;
+}
+
+.order{
+  border: 1px solid #363636;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px #36363680;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.checkout{
+  padding: 1rem;
+}
+
+.mode-select{
+  padding: 1rem;
+}
+
+.products > ul {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart{
+  padding: 1rem;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-group{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+}
